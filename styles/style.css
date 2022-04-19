@@ -1,14 +1,18 @@
 .container {
   background-color: #e5e5e5;
-  width: 389px;
+}
+
+header {
+  background-color: #fff;
 }
 
 main nav {
-  width: 20.188rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 1.5rem;
+  background-color: #fff;
+  background-size: 100vw;
 }
 
 .flex {
@@ -24,9 +28,9 @@ main {
   background-image: url("../img/header-shapes-mobile.png");
   background-repeat: no-repeat;
   margin: 1.625rem 0;
-  width: 24.52rem;
   height: 36.697rem;
   border-bottom-left-radius: 80px;
+  background-size: 100vw;
 }
 
 h1 {
