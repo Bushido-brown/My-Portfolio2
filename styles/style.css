@@ -308,11 +308,6 @@ h2 {
   line-height: 20px;
 }
 
-hr {
-  height: 1px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 300px;
-  background: #dfe1e6;
+.hg li {
+  border-bottom: #dfe1e6 1px solid;
 }
