@@ -3,7 +3,7 @@
   width: 389px;
 }
 
-nav {
+main nav {
   width: 20.188rem;
   display: flex;
   justify-content: space-between;
@@ -19,12 +19,12 @@ a {
   text-decoration: none;
 }
 
-header {
+main {
   background-color: #fff;
   background-image: url("../img/header-shapes-mobile.png");
   background-repeat: no-repeat;
   margin: 1.625rem 0;
-  width: 28.875rem;
+  width: 24.52rem;
   height: 36.697rem;
   border-bottom-left-radius: 80px;
 }
@@ -39,7 +39,7 @@ h1 {
   line-height: 52px;
 }
 
-header p {
+main p {
   width: 20.438rem;
   margin: 0 1.5rem;
   font-family: "Poppins", sans-serif;
@@ -69,27 +69,13 @@ ul {
   list-style-type: none;
 }
 
-header ul {
+main ul {
   width: 9.75rem;
   justify-content: space-between;
   align-items: center;
   padding-left: 1.5rem;
 }
 
-header li {
+main li {
   margin-left: 0;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto;
-  width: 375px;
-}
-
-.content {
-  margin-top: 248px;
-  margin-right: 16px;
-  margin-left: 16px;
-  margin-bottom: 12px;
-  height: 80px;
 }
