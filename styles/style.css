@@ -141,7 +141,7 @@ header {
 .connect {
   display: inline-block;
   margin: 12px 0;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 a.connect:hover {
@@ -407,7 +407,7 @@ button[type="submit"] {
 }
 
 @media (min-width: 768px) {
-   .navbar {
+  .navbar {
     display: flex;
     flex-direction: row;
     height: 80px;
@@ -553,3 +553,4 @@ button[type="submit"] {
     font-size: 40px;
     line-height: 52px;
   }
+}
