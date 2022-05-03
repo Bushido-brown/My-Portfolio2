@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
-    <title>My Portfolio</title>
+    <title>Tochukwu Orizu, Skill Portfolio</title>
   </head>
   <body>
     <div class="container">
@@ -237,31 +237,35 @@
             action="https://formspree.io/f/xrgjaknz"
             method="post"
           >
-            <input
-              type="text"
-              class="font"
-              id="name"
-              name="user_name"
-              placeholder="Type your name here"
-              maxlength="30"
-              required
-            />
-            <input
-              type="email"
-              class="font"
-              id="email"
-              name="user_email"
-              placeholder="Type your email here"
-              required
-            />
-            <textarea
-              id="message"
-              class="font"
-              name="user_message"
-              placeholder="Write your message here"
-              maxlength="500"
-              required
-            ></textarea>
+            <label for="username"
+              ><input
+                type="text"
+                class="font"
+                id="name"
+                name="user_name"
+                placeholder="Type your name here"
+                maxlength="30"
+                required
+            /></label>
+            <label for="email"
+              ><input
+                type="email"
+                class="font"
+                id="email"
+                name="user_email"
+                placeholder="Type your email here"
+                required
+            /></label>
+            <label for="message">
+              <textarea
+                id="message"
+                class="font"
+                name="user_message"
+                placeholder="Write your message here"
+                maxlength="500"
+                required
+              ></textarea>
+            </label>
             <button type="submit">Get in touch</button>
           </form>
           <div id="contact-page-scroll"></div>
