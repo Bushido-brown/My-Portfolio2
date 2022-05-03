@@ -141,7 +141,7 @@ header {
 .connect {
   display: inline-block;
   margin: 12px 0;
-  color: #7f8cff;
+  color: #1326d8;
 }
 
 a.connect:hover {
@@ -238,7 +238,7 @@ a.connect:active {
   font-weight: bold;
   font-size: 12px;
   line-height: 16px;
-  color: #6070ff;
+  color: #0d1fbf;
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
@@ -361,7 +361,7 @@ button:active {
   padding: 24px;
   border-top-left-radius: 70px;
   align-items: center;
-  background-color: #6070ff;
+  background-color: #1c2bb5;
   color: #fff;
   background-image: url("../img/Icons/contact\ form\ background\ shapes@2x.png");
   background-repeat: no-repeat;
