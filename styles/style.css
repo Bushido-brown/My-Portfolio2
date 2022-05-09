@@ -67,9 +67,6 @@ time {
   font-stretch: ultra-expanded;
   cursor: pointer;
 }
-.close img {
-  color: #fff;
-}
 
 .nav-link {
   text-decoration: none;
