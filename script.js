@@ -14,3 +14,16 @@ hamburger.addEventListener('click', () => {
 Array.from(navLinks).forEach((navlink) => navlink.addEventListener('click', () => {
   nav.classList.add('hide');
 }));
+// const hamburger=document.querySelector('.hamburger');
+// const bar1=document.querySelector('.bar1');
+// const bar1=document.querySelector('.bar2');
+// const bar1=document.querySelector('.bar3');
+
+// hamburger.addEventListener('click',getCross);
+
+// function getCross(e){
+//   if(bar2.style.width !== '0px') {
+//     bar1.style.transform = 'rotate(-45deg)';
+//     bar3.style.transform = 'rotate(45deg)';
+//   }
+// }
