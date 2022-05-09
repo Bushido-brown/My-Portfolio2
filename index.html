@@ -13,6 +13,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7ec004c2c1.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Tochukwu Orizu, Skill Portfolio</title>
   </head>
   <body>
@@ -21,20 +25,23 @@
         <nav class="navbar">
           <a href="#" class="logoo">Tuzy Orizu</a>
           <div class="place hide">
+            <span class="close"><img src="img/close.png" alt="#" /></span>
             <ul class="nav-menu">
               <li class="nav-item">
-                <a href="#" class="nav-link">Portfolio</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
+                <a href="#about" class="nav-link">About</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
+                <a href="#contact" class="nav-link">Contact</a>
               </li>
             </ul>
           </div>
           <div class="hamburger">
-            <img src="img/Icons/Union.png" alt="hamburger-menue" />
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
           </div>
         </nav>
       </header>
@@ -237,40 +244,40 @@
             action="https://formspree.io/f/xrgjaknz"
             method="post"
           >
-            <label for="name"
-              ><input
-                type="text"
-                class="font"
-                id="name"
-                name="user_name"
-                placeholder="Type your name here"
-                maxlength="30"
-                required
-            /></label>
-            <label for="email"
-              ><input
-                type="email"
-                class="font"
-                id="email"
-                name="user_email"
-                placeholder="Type your email here"
-                required
-            /></label>
-            <label for="message">
-              <textarea
-                id="message"
-                class="font"
-                name="user_message"
-                placeholder="Write your message here"
-                maxlength="500"
-                required
-              ></textarea>
-            </label>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="font"
+              id="name"
+              name="user_name"
+              placeholder="Type your name here"
+              maxlength="30"
+              required
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="font"
+              id="email"
+              name="user_email"
+              placeholder="Type your email here"
+              required
+            />
+            <label for="message">Write Message</label>
+            <textarea
+              id="message"
+              class="font"
+              name="user_message"
+              placeholder="Write your message here"
+              maxlength="500"
+              required
+            ></textarea>
             <button type="submit">Get in touch</button>
           </form>
           <div id="contact-page-scroll"></div>
         </section>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
