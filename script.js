@@ -216,13 +216,13 @@ Array.from(navLinks).forEach((navlink) => navlink.addEventListener('click', () =
   nav.classList.add('hide');
 }));
 
-document.getElementById("upper").addEventListener("submit", (event) => {
-  const email = document.getElementById("email").value;
+document.getElementById('upper').addEventListener('submit', (event) => {
+  const email = document.getElementById('email').value;
   if (email !== email.toLowerCase()) {
     event.preventDefault();
-   const emailError = document.getElementById('email-error')
-   emailError.classList.add('active')
-  } 
+    const emailError = document.getElementById('email-error');
+    emailError.classList.add('active');
+  }
 });
 
 Array.from(projectBtns).forEach((projectBtn) => projectBtn.addEventListener('click', (e) => {
