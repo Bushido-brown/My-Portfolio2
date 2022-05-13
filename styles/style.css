@@ -412,6 +412,15 @@ textarea {
   padding: 10px 0;
 }
 
+.error-message {
+  color: #fff;
+  display: none;
+}
+
+.error-message.active {
+  display: contents;
+}
+
 button[type="submit"] {
   width: 150px;
   margin: 22px 0;

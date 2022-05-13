@@ -134,8 +134,11 @@
           </p>
           <form
             class="contact flex"
+            novalidate
             action="https://formspree.io/f/xrgjaknz"
+            name="contactForm"
             method="post"
+            id="upper"
           >
             <label for="name">Name</label>
             <input
@@ -165,6 +168,9 @@
               maxlength="500"
               required
             ></textarea>
+            <p id="email-error" class="error-message">
+              Your email should be written in lower case.
+            </p>
             <button type="submit">Get in touch</button>
           </form>
           <div id="contact-page-scroll"></div>
