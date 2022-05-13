@@ -414,6 +414,11 @@ textarea {
 
 .error-message {
   color: #fff;
+  display: none;
+}
+
+.error-message.active {
+  display: contents;
 }
 
 button[type="submit"] {
