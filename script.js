@@ -225,6 +225,33 @@ document.getElementById('upper').addEventListener('submit', (event) => {
   }
 });
 
+const userName = document.getElementById('name');
+const email = document.getElementById('email');
+const message = document.getElementById('message');
+const userData = { // Object to store user data
+  name: 'name',
+  email: 'email',
+  message: 'message',
+};
+
+// Store data using localStorage
+function storeData() {
+  userData.name = userName.value;
+  userData.email = email.value;
+  userData.message = message.value;
+  localStorage.setItem('userData', JSON.stringify(userData));
+}
+// call storeData at every event
+userName.addEventListener('keyup', storeData);
+email.addEventListener('keyup', storeData);
+message.addEventListener('keyup', storeData);
+
+// Check for info in local-storage
+const savedUserData = localStorage.getItem('userData');
+document.getElementById('name').value = JSON.parse(savedUserData).name;
+document.getElementById('email').value = JSON.parse(savedUserData).email;
+document.getElementById('message').value = JSON.parse(savedUserData).message;
+
 Array.from(projectBtns).forEach((projectBtn) => projectBtn.addEventListener('click', (e) => {
   const project = projects[+(e.target.name)];
   modalWindow.appendChild(modalHeader);
