@@ -221,6 +221,7 @@ a.connect:active {
   font-size: 13px;
   line-height: 16px;
   color: #344563;
+  text-decoration: none;
 }
 
 .history {
@@ -233,6 +234,7 @@ a.connect:active {
   font-weight: 600;
   font-size: 13px;
   color: rgb(48, 53, 60);
+  text-decoration: none;
 }
 
 .language {
@@ -430,7 +432,7 @@ button[type="submit"] {
   flex-wrap: nowrap;
   box-sizing: border-box;
   padding: 10px;
-  max-height: 700px;
+  max-height: 554px;
   overflow-y: scroll;
 }
 
@@ -488,6 +490,7 @@ button.modal-button {
 .tagline a {
   display: inline-block;
   text-decoration: none;
+  color: #313438;
 }
 
 .bg-dot {
@@ -748,7 +751,7 @@ li.ext-item {
 
   /* modal window large screen */
   .modal-window {
-    max-width: 60%;
+    max-width: 80%;
     position: fixed;
     top: 50%;
     left: 50%;

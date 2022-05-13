@@ -6,7 +6,7 @@ My Portfolio
 
 ## Built With
 
-- HTML & CSS and FIGMA
+- HTML, CSS, FIGMA, JavaScript
 
 ## Live Demo (if available)
 
@@ -14,7 +14,10 @@ My Portfolio
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps:
+
+- Clone the repository to your local machine
+- Run the program
 
 ### Basic Knowledge in HTML and CSS
 
