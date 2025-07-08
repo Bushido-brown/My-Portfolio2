@@ -2,22 +2,22 @@ const mobileMenuOpen = document.querySelector('.mobile-hamburger-btn');
 const mobileMenuClose = document.querySelector('.mobile-close-btn');
 const projects = [
   {
-    name: 'CarBooking',
-    technologies: ['React', 'Redux', 'Ruby', 'Ruby on Rails', 'Tailwind css', 'API'],
-    featuredImage: 'CarBooking.png',
+    name: 'E-commerce-web application',
+    technologies: ['React', 'Redux-Saga', 'JavaScript', 'SASS'],
+    featuredImage: 'ecommerce.png',
     description:
-      'This application allows users to book a car present in our database. The user can set the reservation date and final date for a selected car. If the user is an administrator they can upload a car and delete it from our database.',
-    liveLink: 'https://bookcar.onrender.com/',
-    linkSource: 'https://github.com/Bushido-brown/CarBooking-frontend',
+      'eCommerce web application using React, Redux, Redux-Saga, Firebase and SASS.',
+    liveLink: 'https://salinaka-ecommerce.web.app/',
+    linkSource: 'https://github.com/Bushido-brown/E-commerce-website',
   },
   {
-    name: 'Space Travelers Hub',
-    technologies: ['HTML5', 'Github', 'JavaScript', 'React', 'Redux'],
-    featuredImage: 'Space-Travelers-Hub.png',
+    name: 'School management system',
+    technologies: ['Reactjs', 'nodejs', 'JavaScript', 'jest-test'],
+    featuredImage: 'Book-Store.png',
     description:
-      'Space Travelers Hub is a website built with React and Redux. It is a single page App (SPA)',
-    liveLink: 'https://bushido-brown.github.io/space-travelers-hub/',
-    linkSource: 'https://github.com/Bushido-brown/space-travelers-hub',
+      'MERN stack app. Streamline school management, class organization, and add students and faculty. Seamlessly track attendance, assess performance, and provide feedback. Access records, view marks, and communicate effortlessly.',
+    liveLink: 'https://realschoolmanagementsystem.netlify.app/',
+    linkSource: 'https://github.com/Bushido-brown/School-management-system',
   },
   {
     name: 'To-do List',
@@ -50,18 +50,18 @@ const projects = [
     ],
     featuredImage: 'financial.png',
     description:
-      'The Mealii Capstone website displays meals served at Mealii Meal Restourant. It also allows you to search by meal name, filter by category, comment and like on any specific meal. All data is preserved thanks to the TheMealDB API service.',
+      'This is a React project building a mobile web application to check a list of metrics (numeric values) created using React and Redux.',
     liveLink: 'https://rainbow-chimera-f57cdd.netlify.app/',
     linkSource: 'https://github.com/Bushido-brown/financial-metrics',
   },
   {
-    name: 'Book Store',
-    technologies: ['React', 'Redux', 'Jest-test'],
-    featuredImage: 'Book-Store.png',
+    name: 'Weather App',
+    technologies: ['bootstrap', 'css3', 'JavaScript', 'React', 'API'],
+    featuredImage: 'weather.png',
     description:
-      'Book Store is a react application which have a basic functionality of Display a list of books, Add a book, and Remove a selected book.',
-    liveLink: '#',
-    linkSource: 'https://github.com/Bushido-brown/Bookstore',
+      'A weather app that pulls from the OpenWeatherMap API to allow users to search for and view the forecast in cities worldwide🌎. Built with JavaScript, HTML, CSS.',
+    liveLink: 'https://samirpaulb.github.io/WeatherApp/',
+    linkSource: 'https://github.com/Bushido-brown/Weather',
   },
 ];
 
